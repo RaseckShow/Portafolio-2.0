@@ -1,0 +1,209 @@
+/*Tablet Landscape*/
+@media screen and (max-width: 1024px) {
+    /* Menú */
+    section.menu{
+        justify-content: space-between;
+    }
+    .menu__imagen{
+        height: 2.5rem;
+    }
+    .menu__name{
+        font-size: 1rem;
+    }
+    .menu__list  .menu__list__item__btn{
+        display: none;
+    }
+
+    /*title*/
+    .title__div{
+        flex-direction: column-reverse;
+    }
+    .title__container{
+        margin: 0;
+    }
+    .title__profile{
+        width: 15%;
+    }
+    .title__bio{
+        font-size: 1.2rem;
+    }
+    .title__bio__name{
+        font-size: 1.5rem;
+    }
+    .title__subsection{
+        font-size: 1rem;
+    }
+    .title__network{
+        padding: 0;
+        justify-content: space-around;
+    }
+    .title__network__item__logo{
+        height: 2rem;
+        width: 2rem;
+    }
+
+    /*Sección About*/
+    .about{
+        padding: 1% 3%;
+    }
+    .about__container{
+        width: 55%;
+    }
+    .about__title{
+        font-size: 1.5rem;
+    }
+    .about__paragraph{
+        font-size: 1.2rem;
+    }
+    
+    /*Hobbies*/
+    .hobbies__container{
+        height: fit-content;
+        width: 40%;
+    }
+    .hobbies__title{
+        font-size: 1.5rem;
+    }
+    .hobbies__list{
+        margin-top: 2%;
+    }
+    .hobbies__box{
+        width: 45%;
+        height: fit-content;
+        padding: 2% 0;
+        margin-bottom: 5%;
+        margin-left: 2%;
+    }
+    .hobbies__img{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    /*Skills*/
+    .section.skills{
+        justify-content: center;
+    }
+    .skills__title,.softskills__title{
+        font-size: 1.5rem;
+    }
+    .skills__box, .softskills__box{
+        width: 45%;
+        height: fit-content;
+        margin-bottom: 5%;
+        padding: 2% 0;
+    }
+    .skills__img, .softskills__img{
+        height: 2rem;
+        width: 2rem;
+    }
+
+    /*Formación Académica*/
+    .academic__title{
+        font-size: 1.5rem;
+    }
+    .academic__courses__box{
+        width: 40vw;
+    }
+    .academic__courses__item__img{
+        width: 75px;
+        height: 75px;
+    }
+    .academic__courses__item__title{
+        margin: 5% 0;
+    }
+    .academic__courses__item__subtitle{
+        margin: 5% 0;
+    }
+    .academic__courses__box:hover > .academic__courses__item__img{
+        width: 85px;
+        height: 85px;
+        border: 10px solid  var(--color-background-grey);
+    }
+
+    /*Experiencia Profesional*/
+    .experience__title{
+        font-size: 1.5rem;
+    }
+    .swiper__projects{
+        width: 90%;
+        height: 70%;
+    }
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+
+    /* Menú */
+    section.menu{
+        justify-content: space-between;
+    }
+
+    /*title*/
+    .title__profile{
+        width: 20%;
+    }
+    .title__bio{
+        font-size: 1.4rem;
+    }
+    .title__bio__name{
+        font-size: 1.7rem;
+    }
+    .title__subsection{
+        font-size: 1.1rem;
+    }
+    .title__network__item__logo{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    /*Sección About*/
+    .about__container{
+        width: 60%;
+    }
+    
+    /*Hobbies*/
+    .hobbies__container{
+        width: 35%;
+    }
+    .hobbies__box{
+        width: 80%;
+    }
+    .hobbies__img{
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    /*Skills*/
+    .skillsContainer{
+        width: 50%;
+    }
+    .skills__box, .softskills__box{
+        width: 48%;
+        margin: 2% 1%;
+    }
+    .skills__img, .softskills__img{
+        height: 1.8rem;
+        width: 1.8rem;
+    }
+
+    /*Formación Académica*/
+    .education__container{
+        width: 45%;
+    }
+    .academic__courses__item__img{
+        width: 60px;
+        height: 60px;
+    }
+    .academic__courses__item__info{
+        text-align: center;
+    }
+    .academic__courses__box:hover > .academic__courses__item__img{
+        width: 75px;
+        height: 75px;
+    }
+    
+    /*Experiencia Profesional*/
+    .experience__title{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencias de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="assets/CSS/style-tablet.css">
+    <link rel="stylesheet" href="assets/CSS/style-mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- Fuente del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Cesar Navarro | Portafolio</title>
+</head>
+<body>
+    <!-- Sección del Menú  -->
+    <div class="body__container">
+        <section class="menu">
+            <header class="menu__header">
+                <img src="assets/Images/IconDev.png" class="menu__imagen">
+                <h3 class="menu__name">Cesar Navarro</h3>
+            </header>
+            <nav>
+                <ul class="menu__list">
+                    <li class="menu__list__item"><a href="#sobre-mi"><button class="menu__list__item__btn">Sobre mi</button></a></li>
+                    <li class="menu__list__item"><a href="#skills"><button class="menu__list__item__btn">Skills</button></a></li>
+                    <li class="menu__list__item"><a href="#hobbies"><button class="menu__list__item__btn">Hobbies</button></a></li>
+                    <li class="menu__list__item"><a href="#formacion"><button class="menu__list__item__btn">Formación</button></a></li>
+                    <li class="menu__list__item"><a href="#xp"><button class="menu__list__item__btn">Proyectos</button></a></li>
+                    <li class="menu__list__item"><a href="assets/Docs/CV Cesar Navarro.pdf" target="_blank"><button class="menu__list__item__btn__cv">Ver Curriculum</button></a></li>
+                    <li class="menu__list__item"><a href="assets/Docs/CV Cesar Navarro.pdf" target="_blank" class="menu__list__item__btn__cv__mob"><img src="assets/Images/CV Icon.png" alt="">Ver CV</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <!-- Sección del Header/Title -->
+        <section class="title" id="inicio">
+            <div class="title__div">
+                <div class="title__container">
+                    <div class="title__text">
+                        <h2 class="title__bio">Hola, soy <span class="title__bio__name">Cesar Navarro</span>, desarrollador 
+                            <p class="title__text__anim"></p>
+                            <p class="title__text__job">- End Jr.</p>
+                        </h2>
+                    </div>
+                    <h3 class="title__subsection">Aqui podrás conocer los proyectos que he realizado a lo largo de mi trayectoria.</h3>
+                    <ul class="title__network">
+                        <!-- Pon los enlaces de tus redes sociales favoritas -->
+                        <li class="title__network__item"><a href="https://github.com/RaseckShow" target="_blank"><img class="title__network__item__logo" src="assets/Images/IconsNetwork/logo-github.png"> </a></li>
+                        <li class="title__network__item"><a href="https://linkedin.com/in/cesar-navarro-dev" target="_blank"><img class="title__network__item__logo" src="assets/Images/IconsNetwork/logo-linkedin.png"></a></li>
+                        <li class="title__network__item"><a href="mailto:ces_art11@hotmail.com?Subject=Consulta%20desde%20tu%20portafolio%20web%20-%20(Tu%20Nombre%20o%20Nombre%20de%20la%20Empresa)%20tiene%20interes%20en%20una%20colaboración"> <img class="title__network__item__logo" src="assets/Images/IconsNetwork/logo-correo.png"></a></li>
+                    </ul>
+                </div>
+                <img class="title__profile" src="assets/Images/profile-img.png">            
+            </div>
+        </section>
+        
+        <!-- Sección sobre mi -->
+        <section class="about" id="sobre-mi">
+                <div class="about__container">
+                    <h3 class="about__title">Sobre mi</h3>
+                    <p class="about__paragraph">Desde mi infancia, la tecnología y el desarrollo de software han despertado mi curiosidad y pasión. En los últimos años, me he sumergido en este fascinante mundo del desarrollo, abrazando siempre una actitud positiva y una determinación inquebrantable por crecer y superar obstáculos.</p>
+                    <p class="about__paragraph">He tenido el privilegio de involucrarme en diversos proyectos dentro de la industria, y cada experiencia ha sido emocionante y gratificante.
+                        A pesar de los desafíos que he enfrentado, estoy comprometido a seguir adelante y mejorar constantemente.</p>
+                </div>
+                <!-- Sección de Hobbies -->
+                <div class="hobbies__container" id="hobbies">
+                    <h3 class="hobbies__title">Hobbies</h3>
+                    <div class="hobbies__list">
+                        <div class="hobbies__box">
+                            <img class="hobbies__img" src="assets/Images/IconsSkillsHobbies/libro.png" alt="">
+                            <label class="hobbies__name">Lectura
+                        </div>
+                        <div class="hobbies__box">
+                            <img class="hobbies__img" src="assets/Images/IconsSkillsHobbies/pesas.png">
+                            <label class="hobbies__name">Ejercicio
+                        </div>
+                        <div class="hobbies__box">
+                            <img  class="hobbies__img" src="assets/Images/IconsSkillsHobbies/baile.png" alt=""> 
+                            <label class="hobbies__name">Baile
+                        </div>
+                        <div class="hobbies__box">
+                            <img class="hobbies__img" src="assets/Images/IconsSkillsHobbies/audifonos.png" alt="">
+                            <label class="hobbies__name">Música
+                        </div>
+                        <div class="hobbies__box">
+                            <img class="hobbies__img" src="assets/Images/IconsSkillsHobbies/tv_icon.png" alt="">
+                            <label class="hobbies__name">Series
+                        </div>
+                        <div class="hobbies__box">
+                            <img class="hobbies__img"src="assets/Images/IconsSkillsHobbies/control.png" alt="">
+                            <label class="hobbies__name">Videojuegos
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Sección de Skills -->
+        <section class="skills" id="skills">
+            <div class="skillsContainer">
+                <div class="skills__container">
+                    <h3 class="skills__title">Skills</h3>
+                        <div class="skills__list">
+                            <div class="skills__box">
+                                <img class="skills__img" src="assets/Images/IconsSkillsHobbies/css.png">
+                                <label class="skills__name"> CSS
+                            </div>
+            
+                            <div class="skills__box">
+                                
+                                <img class="skills__img" src="assets/Images/IconsSkillsHobbies/js_icon.png" >
+                                <label class="skills__name">Javascript
+                            </div>
+            
+                            <div class="skills__box">
+                                <img class="skills__img" src="assets/Images/IconsSkillsHobbies/c++.png" alt="">
+                                <label class="skills__name">C/C++
+                            </div>
+            
+                            <div class="skills__box">
+                                <img class="skills__img" src="assets/Images/IconsSkillsHobbies/c-sharp.png" alt="">
+                                <label class="skills__name">C#
+                            </div>
+            
+                            <div class="skills__box">
+                                <img class="skills__img" src="assets/Images/IconsSkillsHobbies/sql.png" alt="">
+                                <label class="skills__name">SQL
+                            </div>
+            
+                            <div class="skills__box">
+                                <img class="skills__img" src="assets/Images/IconsSkillsHobbies/java.png" alt="">
+                                <label class="skills__name">Java
+                            </div>
+                    </div>
+                </div>
+                <div class="softskills__container">
+                    <h3 class="softskills__title">Soft Skills</h3>
+                        <div class="softskills__list">      
+                            <div class="softskills__box">
+                                <img class="softskills__img" src="assets/Images/IconsSkillsHobbies/pensamiento-analitico.png">
+                                <label class="softskills__name"> Pensamiento analítico
+                            </div>
+            
+                            <div class="softskills__box">
+                                
+                                <img class="softskills__img" src="assets/Images/IconsSkillsHobbies/colaboracion.png" >
+                                <label class="softskills__name">Colaboración
+                            </div>
+            
+                            <div class="softskills__box">
+                                <img class="softskills__img" src="assets/Images/IconsSkillsHobbies/Gestion.png" alt="">
+                                <label class="softskills__name">Gestión del tiempo
+                            </div>
+            
+                            <div class="softskills__box">
+                                <img class="softskills__img" src="assets/Images/IconsSkillsHobbies/adaptabilidad.png" alt="">
+                                <label class="softskills__name">Adaptabilidad
+                            </div>
+            
+                            <div class="softskills__box">
+                                <img class="softskills__img" src="assets/Images/IconsSkillsHobbies/resolucion-de-problemas.png" alt="">
+                                <label class="softskills__name">Resolución de problemas
+                            </div>
+            
+                            <div class="softskills__box">
+                                <img class="softskills__img" src="assets/Images/IconsSkillsHobbies/atencion-detalles.png" alt="">
+                                <label class="softskills__name">Atención a los detalles
+                            </div>
+                    </div>
+                </div>
+            </div>
+                
+            <!-- Sección de Formación académica -->
+            <div class="education__container" id="formacion">
+                <h2 class="academic__title" >Formación académica</h2>
+                <div class="academic__courses__list">
+                    <div class="academic__courses__box">
+                        <img class="academic__courses__box__banner" src="assets/Images/ImageEducation/alura-banner.png" alt="">
+                        <img class="academic__courses__item__img" src="assets/Images/ImageEducation/ONE.png">
+                        <div class="academic__courses__item__info">
+                            <h4 class="academic__courses__item__title">Front-End Developer</h4>
+                            <span class="academic__courses__item__institucion">Alura Latam | ONE Oracle</span>
+                            <span class="academic__courses__item__subtitle">2022 - 2023</span>
+                        </div>
+                    </div>
+                    <div class="academic__courses__box">
+                        <img class="academic__courses__box__banner" src="assets/Images/ImageEducation/IPN-Banner.png" alt="">
+                        <img class="academic__courses__item__img" src="assets/Images/ImageEducation/upiicsa.png">
+                        <div class="academic__courses__item__info">
+                            <h4 class="academic__courses__item__title">Ingenieria en informatica</h4>
+                            <span class="academic__courses__item__institucion">UPIICSA | IPN</span>
+                            <span class="academic__courses__item__subtitle">2017 - En proceso</span>
+                        </div>
+                    </div>
+                    <div class="academic__courses__box">
+                        <img class="academic__courses__box__banner" src="assets/Images/ImageEducation/IPN-Banner.png" alt="">
+                        <img class="academic__courses__item__img" src="assets/Images/ImageEducation/cecyt8.png">
+                        <div class="academic__courses__item__info">
+                            <h4 class="academic__courses__item__title">Tecnico en computación</h4>
+                            <span class="academic__courses__item__institucion">CECyT No. 8 Narciso Bassols | IPN</span>
+                            <span class="academic__courses__item__subtitle">2013 - 2016</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Experiencia Profesional/Proyectos-->
+        <section class="experience" id="xp">
+            <h2 class="experience__title" >Proyectos</h2>
+            <div class="experience__list">
+                <!-- Slider main container -->
+                <div class="swiper swiper__projects">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper grid-container">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="experience__box">
+                                <img class="experience__img" src="assets/Images/ImageProjects/ecommerce.png">
+                                <div class="experience__info">
+                                    <div class="experience__info__description">
+                                        <h2 class="experience__name">AluraGeek Ecommerce</h2>
+                                        <h3 class="experience__text">Administra el inventario de tu tienda online. Crea, elimina, edita y publica tus productos.</h3>
+                                    </div>
+                                    <div class="experience__tech__btns">
+                                        <div class="experience__technologies">
+                                            <img src="assets/Images/IconsTechnologies/logo JS .webp" alt="" class="experience__technologies__img">
+                                            <img src="assets/Images/IconsTechnologies/HTML5_badge.png" alt="" class="experience__technologies__img">
+                                            <img src="assets/Images/IconsTechnologies/logo css.png" alt="" class="experience__technologies__img">
+                                            <img src="assets/Images/IconsTechnologies/nodejs-icon.webp" alt="" class="experience__technologies__img">
+                                        </div>
+                                        <div class="experience__btns">
+                                            <a href="https://github.com/RaseckShow/Ecommerce-Challenge04-ONE" class="experience__repo">Code <img src="assets/Images/code icon.png" alt=""></a>
+                                            <a href="https://raseckshow.github.io/Ecommerce-Challenge04-ONE/" class="experience__demo">Live <img src="assets/Images/transmision-icon.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="experience__box">
+                                <img class="experience__img" src="assets/Images/ImageProjects/hotelAlura.png">
+                                <div class="experience__info">
+                                    <div class="experience__info__description">
+                                        <h2 class="experience__name">Hotel Alura</h2>
+                                        <h3 class="experience__text">Controle y administre de forma optima y sencilla el flijo de reservas y huespedes del hotel.</h3>
+                                    </div>
+                                    <div>
+                                        <div class="experience__technologies">
+                                            <img src="assets/Images/IconsTechnologies/java_original_logo_icon_146458.png" alt="" class="experience__technologies__img">
+                                            <img src="assets/Images/IconsTechnologies/mysql-icon.webp" alt="" class="experience__technologies__img">
+                                        </div>
+                                        <div class="experience__btns">
+                                            <a href="https://github.com/RaseckShow/SistemaHotel-Challenge06-ONE" class="experience__repo">Code <img src="assets/Images/code icon.png" alt=""></a>
+                                            <a href="#" class="experience__demo">Live <img src="assets/Images/transmision-icon.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="experience__box">
+                                <img class="experience__img" src="assets/Images/ImageProjects/juego.png">
+                                <div class="experience__info">
+                                    <div class="experience__info__description">
+                                        <h2 class="experience__name">Juego Ahorcado</h2>
+                                        <h3 class="experience__text">¡Desafía tu mente con el clásico juego del ahorcado! Adivina la palabra y salva al personaje. </h3>
+                                    </div>
+                                    <div>
+                                        <div class="experience__technologies">
+                                            <img src="assets/Images/IconsTechnologies/logo JS .webp" alt="" class="experience__technologies__img">
+                                            <img src="assets/Images/IconsTechnologies/HTML5_badge.png" alt="" class="experience__technologies__img">
+                                            <img src="assets/Images/IconsTechnologies/logo css.png" alt="" class="experience__technologies__img">
+                                        </div>
+                                        <div class="experience__btns">
+                                            <a href="https://github.com/RaseckShow/Juego-Ahorcado-Challenge02-ONE" class="experience__repo">Code <img src="assets/Images/code icon.png" alt=""></a>
+                                            <a href="https://raseckshow.github.io/Juego-Ahorcado-Challenge02-ONE/" class="experience__demo">Live <img src="assets/Images/transmision-icon.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="experience__box">
+                                <img class="experience__img" src="assets/Images/ImageProjects/encriptador.png">
+                                <div class="experience__info">
+                                    <div class="experience__info__description">
+                                        <h2 class="experience__name">Encriptador de Texto</h2>
+                                        <h3 class="experience__text">Convierte tu comunicación en un código seguro en segundos. ¡Protege tu privacidad y comunícate con confianza!</h3>
+                                    </div>
+                                    <div>
+                                        <div class="experience__technologies">
+                                            <img src="assets/Images/IconsTechnologies/logo JS .webp" alt="" class="experience__technologies__img">
+                                            <img src="assets/Images/IconsTechnologies/HTML5_badge.png" alt="" class="experience__technologies__img">
+                                            <img src="assets/Images/IconsTechnologies/logo css.png" alt="" class="experience__technologies__img">
+                                        </div>
+                                        <div class="experience__btns">
+                                            <a href="https://github.com/RaseckShow/SistemaHotel-Challenge06-ONE" class="experience__repo">Code <img src="assets/Images/code icon.png" alt=""></a>
+                                            <a href="#" class="experience__demo">Live <img src="assets/Images/transmision-icon.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>  
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Footer -->
+        <section class="footer">
+            <ul class="footer__network">
+                <li class="title__network__item"><a href="https://github.com/RaseckShow" target="_blank"><img class="title__network__item__logo" src="assets/Images/IconsNetwork/logo-github.png"> </a></li>
+                <li class="title__network__item"><a href="https://linkedin.com/in/cesar-navarro-dev" target="_blank"><img class="title__network__item__logo" src="assets/Images/IconsNetwork/logo-linkedin.png"></a></li>
+                <li class="title__network__item"><a href="mailto:ces_art11@hotmail.com?Subject=Consulta%20desde%20tu%20portafolio%20web%20-%20(Tu%20Nombre%20o%20Nombre%20de%20la%20Empresa)%20tiene%20interes%20en%20una%20colaboración"> <img class="title__network__item__logo" src="assets/Images/IconsNetwork/logo-correo.png"></a></li>
+            </ul>
+                <div class="footer__rodape">
+                    <p>Cesar Navarro - Todos los derechos reservados &copy</p>
+                </div>
+        </section>
+    </div>
+<!-- Script del documento JavaScript -->
+<script type="module" src="assets/Scripts/swiper.js"></script>
+</body>
+</html>
